@@ -10,9 +10,9 @@ th {
     font-size: 13px;
     font-weight: normal; 
     padding: 8px; 
-    background: #b9c9fe; 
+    background: #6C757D; 
     border-top: 4px solid #aabcfe;
-    border-bottom: 1px solid #fff; color: #039; 
+    border-bottom: 1px solid #fff; color: #FFF; 
 }
 
 td { 
@@ -39,9 +39,29 @@ tr:hover td {
 }
 
 .boton {   
-    color: black; 
-    padding: 5px; 
+    padding: 10px; 
     margin: 10px;
-    background-color: #b9c9fe;
-    font-weight: bold; 
+    background-color: #FFF;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-right: 0;
+
+}
+
+#aceptar{
+    color: #007BFF; 
+    border-color: #007BFF;
+}
+#cancelar{
+    color: #999;
+    border-color: #999;
+}
+
+#aceptar:hover{
+    color: #FFF;
+    background-color: #007BFF;
+}
+#cancelar:hover{
+    color: #FFF; 
+    background-color: #999;
 }

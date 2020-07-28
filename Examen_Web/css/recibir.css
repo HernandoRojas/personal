@@ -1,0 +1,106 @@
+#general{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 310px;
+    font-family: sans-serif;
+}
+#cabecera{
+    background-color: #FAA832;
+    display: block;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+#ambos{
+
+    float: right;
+    margin-top: 0;
+    display: block;
+    position: relative;
+    width: 98px;
+    height: 120px;
+}
+#carita{
+
+    display: inline-block;
+    position: relative;
+    width: 98px;
+    height: 100%;
+}
+img{ 
+    padding-top: 22px;
+    height: 70px;
+    width: 70px;
+}
+#fruta{
+    position: relative;
+    /* height: 58px; */
+    font-size: 22px;
+    text-justify: auto;
+    margin-top: 25px;
+}
+#margen{
+    padding-top: 30px;
+}
+#alimento{
+    position: relative;
+    height: 59px;
+}
+#cuerpo{
+    background-color: #FEFEFE;
+    color: #0887D1;
+
+}
+#calorias{
+    height: 35px;
+    border: 1px solid #E2D9D3;
+    text-indent: 10px;
+    padding-top: 10px;
+}
+#grasas{
+    height: 35px;
+    border: 1px solid #E2D9D3;
+    text-indent: 10px;
+    padding-top: 10px;
+
+}
+
+#proteina{
+    height: 35px;
+    border: 1px solid #E2D9D3;
+    text-indent: 10px;
+    padding-top: 10px;
+
+}
+
+#carbohidratos{
+    height: 37px;
+    border: 1px solid #E2D9D3;
+    text-indent: 10px;
+    padding-top: 10px;
+
+}
+.cuerpo{
+    color: #FFF;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 14px;
+
+}
+#caloria{
+    background-color: #007BFF;
+    margin-left: 37px;
+}
+#grasa{
+    background-color: #17A2B8;
+    margin-left: 63px;
+}
+#prote{
+    background-color: #28A745;
+    margin-left: 55px;
+}
+#carbos{
+    background-color: #DC3545;
+    margin-left: 8px;
+}

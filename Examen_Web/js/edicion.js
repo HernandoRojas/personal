@@ -23,7 +23,7 @@ function editar(nodo)
     nodoTr.innerHTML = nuevoCodigoHtml;
     nodoContenedor.innerHTML = 'Pulse Aceptar para guardar los cambios o cancelar para anularlos'+
     '<form name = "formulario" action="../html/recibir.html" method="get" onsubmit="envio()" onreset="anular()">'+
-    '<input class="boton" type = "submit" value="Aceptar"> <input class="boton" type="reset" value="Cancelar">';
+    '<input id="aceptar" class="boton" type = "submit" value="Aceptar"> <input class="boton"id="cancelar" type="reset" value="Cancelar">';
     enEdicion = "true";
     }
     else 
